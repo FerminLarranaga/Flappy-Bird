@@ -66,7 +66,7 @@ function pararTodo (code) {
 }
 
 function birdMovement (code = 10) {
-	ctx.drawImage(Birds[BirdAct], birdX, birdY, 100, 100);
+	ctx.drawImage(Birds[BirdAct], birdX, birdY, 90, 90);
 	if (code === 87 || code === 32 || code === 38 || actA) {
 		BirdAct = 1;
 		birdY-=birdSpeed;
