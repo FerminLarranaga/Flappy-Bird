@@ -36,7 +36,7 @@ let allPaddles = {
 document.addEventListener("keydown", function(evt){let code = evt.keyCode; birdMovement(code)});
 document.addEventListener("keydown", function(evt){let code = evt.keyCode; pararTodo(code)});
 
-var intervalos = setInterval(mainFunction, 1000/33);
+var intervalos = setInterval(mainFunction, 1000/100);
 
 function mainFunction () {
 	ctx.drawImage(background, backgroundX, 0);
