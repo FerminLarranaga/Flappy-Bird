@@ -49,7 +49,7 @@ function mainFunction () {
 
 	birdMovement();
 	timeOutPaddlesDraw++;
-	if (timeOutPaddlesDraw === 45) {
+	if (timeOutPaddlesDraw === 35) {
 		drawPaddles();
 		timeOutPaddlesDraw = 0;
 	}
