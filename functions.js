@@ -23,9 +23,9 @@ let actA = false;
 let timeOutBirdMovement = 0;
 
 let paddle1 = new Image();
-paddle1.src = "paddle2.png";
+paddle1.src = "Paddle2.png";
 let paddle = new Image();
-paddle.src = "paddle.png";
+paddle.src = "Paddle.png";
 let timeOutPaddlesDraw = 0;
 let paddlesSpeed = 10;
 let allPaddles = {
